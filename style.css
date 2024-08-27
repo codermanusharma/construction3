@@ -29,8 +29,8 @@ body {
 }
 
 .logo img {
-    width: 50px;
-    height: 50px;
+    width: 85px;
+    height: 55px;
     margin-left: 50px;
 }
 
@@ -101,7 +101,7 @@ body {
     font-size: 6vw;
     /* Responsive font size */
     color: #ffffff;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
     /* Added margin for spacing */
 }
 
@@ -556,6 +556,7 @@ body {
         margin-right: 0;
         /* Remove margin for mobile view */
         padding-top: 10vh;
+        z-index: 1;
         /* Space to avoid logo overlay */
     }
 

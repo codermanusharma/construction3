@@ -52,3 +52,36 @@ const navMenu = document.getElementById('nav-menu');
 menuIcon.addEventListener('click', () => {
     navMenu.classList.toggle('show');
 });
+
+function animation(){
+
+ var tl = gsap.timeline()
+tl.from(".nav-menu a",{
+    // y:-50,
+    // duration:0.5,
+    // stagger:0.5
+})
+
+tl.from(".tag-line ",{
+    y:100,
+    opacity:0,
+    stagger:1,
+    duration:1,
+    // stagger:0.5 
+})
+tl.from(".tag-line span ",{
+    y:100,
+    opacity:0,
+    stagger:1,
+    duration:1,
+    stagger:0.5 
+})
+tl.from(".pra1",{
+    opacity:0,
+    stagger:1,
+    duration:1,
+    
+})
+}
+animation();
+
