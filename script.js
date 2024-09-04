@@ -1,14 +1,14 @@
 document.addEventListener("DOMContentLoaded", function() {
     (function(){
-        emailjs.init("TCzTJZ3RS0yrb3OY0"); // Replace 'YOUR_USER_ID' with your EmailJS user ID
+        emailjs.init("Kd8S4BHYt3iTVlM-V"); // Replace 'YOUR_USER_ID' with your EmailJS user ID
     })();
 
     document.getElementById('contact-form').addEventListener('submit', function(event) {
         event.preventDefault();
 
         // Change these to your EmailJS service ID, template ID, and your user ID
-        const serviceID = 'service_mjxi3d4';
-        const templateID = 'template_jw44278';
+        const serviceID = 'service_9cdroyi';
+        const templateID = 'template_df8mqts';
 
         emailjs.sendForm(serviceID, templateID, this)
             .then(() => {
